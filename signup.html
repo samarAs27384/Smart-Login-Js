@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logen</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/signup.css">
+</head>
+<body>
+
+    <div class="container py-3  text-center">
+        <div class="contant m-auto w-75 p-5">
+            <h1> <span>S</span>mart Sign In System</h1>
+
+            <input type="text" placeholder="Enter Your Name" class="form-control my-3" id="singinName">
+            <p id="alertName" class="masggd text-danger d-none" >include at laest 3 letters with capital , second name is optionel  </p>
+
+            <input type="text" placeholder="Enter Your Email" class="form-control my-3" id="singEmail">
+            <p id="alertEmail" class="masggd text-danger d-none" >name@example.com</p>
+
+            <input type="password" placeholder="Enter Your Password" class="form-control my-3" id="singinPassword">
+            <p id="alertPassword" class="masggd text-danger d-none" >you mast strenith yor password, from 5 to 15</p>
+
+            <p class="text-success d-none" id="confirMsg">Success</p>
+            <p class="text-danger d-none" id="accountExisMsg">This account is exist ! try another on</p>
+            <p class="text-danger d-none" id="tryAginMsg">signup failed ! try again</p>
+
+            <button type="button" class="btn-sign btn btn-outline-info w-100 my-3" id="signupBtn" onclick="signup()">Signup</button>
+            <p class="text-white">Already have an account?</p>
+            <a href="index.html" class=" btn btn-info   text-white text-decoration-none" id="signIn"> SignIn </a>
+        </div>
+       </div>
+    
+
+
+
+
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/signup.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
